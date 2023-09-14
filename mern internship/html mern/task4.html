@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><div>
+    <h2 >Registration Form</h2>
+</div>
+    <form >
+        <table border="3" >
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" name="first_name" required></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" name="last_name" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Re-enter Password:</td>
+                <td><input type="password" name="re_password" required></td>
+            </tr>
+            <tr>
+                <td >Gender:</td>
+                <td>
+                    <input type="radio" name="gender" value="Male"> Male
+                      <br>
+                    <input type="radio" name="gender" value="Female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" name="age" required></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="tel" name="phone" required></td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="address" rows="4" required></textarea></td>
+            </tr>
+            <tr>
+                <td>State:</td>
+                <td><input type="text" name="state" required></td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td>
+                    <select name="country" required>
+                        <option value="USA">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="India">India</option>
+                        <option value="south africa">south africa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Languages Known:</td>
+                <td>
+                    <input type="checkbox" name="languages[]" value="English"> English
+                    <input type="checkbox" name="languages[]" value="kannada"> Kannada
+                    <input type="checkbox" name="languages[]" value="hindi"> Hindi
+                    <input type="checkbox" name="languages[]" value="telugu"> Telugu
+                    <!-- Add more languages as needed -->
+                </td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="agree_terms" required>hereby I declare all the given details are true</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><p>login to ethnus <a href=https://ethnus.com>Click here to go to ethnus</a></p></td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <input type="submit" value="Register">
+</body>
+</html>
+

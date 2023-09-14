@@ -1,0 +1,36 @@
+.container_1 {
+    height: 500px;
+    width: 900px;
+    padding: 1px;
+    background-color: rgb(139, 59, 87);
+  }
+  .container_2 {
+    height: 400px;
+    width: 700px;
+    margin-left: 90px;
+    margin-top: 45px;
+    background-color: rgb(96, 29, 40);
+  }
+  th,
+  td {
+    color: white;
+    padding: 7px;
+  }
+  table {
+    padding-left: 170px;
+    padding-top: 10px;
+  }
+  button {
+    margin-top: 10px;
+    margin-left: 175px;
+    width: 350px;
+    height: 45px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: larger;
+  }
+  .btn:hover {
+      cursor:grab;
+  }
